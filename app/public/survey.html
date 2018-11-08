@@ -229,9 +229,10 @@
 					$("#question10").val()
 				]
 			};
-			var currentURL = window.location.origin;
+            var currentURL = window.location.origin;
+            console.log(currentURL);
 			// Ajax call for receiving response after POST req
-			$.post(currentURL + "/api/friends", newUser, function(data) {
+			$.post("/api/friends", newUser, function(data) {
 				$("#bestFriend").text(data.name);
 				$("#bestFriendPhoto").attr("src", data.photo);
 				$("#bestFriendModal").modal("toggle");
