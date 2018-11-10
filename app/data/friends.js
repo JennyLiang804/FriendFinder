@@ -1,7 +1,7 @@
 var friends = [
     {
         name:"Grinch",
-        photo:"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiLub2XzMXeAhUhT98KHTZHAJkQjRx6BAgBEAU&url=https%3A%2F%2Fiz.ru%2F718034%2F2018-03-09%2Fv-seti-poiavilsia-treiler-multfilma-grinch&psig=AOvVaw3PUdg1WzjvZPZ9lpNF6B2c&ust=1541793940898235",
+        photo:"http://e.cinescape.americadigital.pe/ima/0/0/2/2/7/227178.jpg",
         scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     },
 

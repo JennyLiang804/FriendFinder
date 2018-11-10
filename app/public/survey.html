@@ -59,7 +59,7 @@
            
             <br>
          
-                <!-- <div id="questions">
+                <div id="questions">
                     <h2>Question 3</h2>
                     <p>I can listen to Christmas music all year round.</p>
                     <div class="form-check form-check-inline" id="question3">
@@ -166,7 +166,7 @@
                         <input style="margin-left: 15%; margin-right: 3%" type="radio" name="question1" value="5"> 5
                     </div>
                 </div>
-            <br> -->
+            <br>
             <!-- data-toggle="modal" data-target="bestFriendModal" -->
             <button id="submitBtn" class="btn btn-danger btn-lg" type="submit" ><span
                     style="margin-right: 8%" class="fa fa-heart"></span>Submit</button>
@@ -183,7 +183,7 @@
                         <img id="bestFriendPhoto" src="#">
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button id="closeBtn" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -234,6 +234,11 @@
 		} else {
 			// If a required field is missing, show alert
 			alert("Survey is incomplete!");
-		}
+        }
+        
+        $("#closeBtn").on("click", function(event){
+            event.preventDefault();
+            $("#bestFriendModal").hide();
+        })
 	});
 </script>
