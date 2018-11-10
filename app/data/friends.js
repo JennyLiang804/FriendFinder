@@ -16,4 +16,6 @@ var friends = [
         photo: "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiBopLazcXeAhXmYN8KHdFiA_UQjRx6BAgBEAU&url=http%3A%2F%2Fzahradni-nabytek-vyprodej.info%2Fgrinch-who-stole-christmas-girlfriend.html&psig=AOvVaw21P7R908BifAgu3dJNm_2v&ust=1541794303490258",
         scores: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
     }
-]
+];
+
+module.exports = friends;
