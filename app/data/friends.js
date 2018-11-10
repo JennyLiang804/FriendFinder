@@ -7,13 +7,13 @@ var friends = [
 
     {
         name: "Christmas Cat",
-        photo:"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjs-pqw0cXeAhWomuAKHbgPDJYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.facebook.com%2FThePlayfulPainters%2Fphotos%2Fa.237029566656663%2F723172921375656%2F%3Ftype%3D3&psig=AOvVaw39mUAk7gKq84pFBsibtMML&ust=1541795265987771",
+        photo:"https://teeshirtpalace-production.s3.amazonaws.com/spree/images/SCC5256-BLACK-AT-DESIGN/large/SCC5256-BLACK-AT-DESIGN.jpg?1484347186",
         scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
     },
 
     {
         name: "Cindy Lou Who",
-        photo: "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiBopLazcXeAhXmYN8KHdFiA_UQjRx6BAgBEAU&url=http%3A%2F%2Fzahradni-nabytek-vyprodej.info%2Fgrinch-who-stole-christmas-girlfriend.html&psig=AOvVaw21P7R908BifAgu3dJNm_2v&ust=1541794303490258",
+        photo: "https://vignette.wikia.nocookie.net/myfavoritemovies/images/4/40/Pic18.jpg/revision/latest?cb=20110510205018",
         scores: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
     }
 ];
